@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Available Webtoons</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="webtoon-logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="webtoon-logo.png"
+              alt="Logo"
+              width="45"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="product.html"
+                  >Comics</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item ms-2">
+                <a
+                  href="cart.html"
+                  class="btn btn-outline-custom btn-sm rounded-pill px-4"
+                >
+                  Cart (0)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container mt-5">
+        <div class="d-flex align-items-center justify-content-between">
+          <h1 class="fw-bold display-4 text-orange">Available Webtoons</h1>
+          <div class="mb-3">
+            <a href="cart.html" class="btn btn-success">View Cart</a>
+          </div>
+        </div>
+        <hr />
+        <div class="row g-4 pb-5">
+          <!-- Return of the Mount Hua Sect -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/mount-hua.jpg"
+                class="card-img-top"
+                alt="Return of the Mount Hua Sect"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Return of the Mount Hua Sect</h5>
+                <p class="card-text text-truncate-3">
+                  Chung Myung, the 13th Disciple of the Mount Hua Sect, awakens
+                  100 years later to rebuild his fallen sect.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱998.00</span>
+                    <small class="text-muted">Fantasy / Action</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Return of the Mount Hua Sect', '₱998.00', 'images/mount-hua.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Return of the Mount Hua Sect', '₱998.00', 'images/mount-hua.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Disaster Class Hero -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/disaster.jpg"
+                class="card-img-top"
+                alt="Disaster Class Hero"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Disaster Class Hero</h5>
+                <p class="card-text text-truncate-3">
+                  Lee Geon was trapped in the Tower of Demons for twenty years.
+                  Now he is back for revenge against the saints who betrayed
+                  him.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱998.00</span>
+                    <small class="text-muted">Action / Revenge</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Disaster Class Hero', '₱998.00', 'images/disaster.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Disaster Class Hero', '₱998.00', 'images/disaster.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lookism -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/lookism.jpg"
+                class="card-img-top"
+                alt="Lookism"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Lookism</h5>
+                <p class="card-text text-truncate-3">
+                  A high school student can switch between two bodies—one
+                  unattractive and the other handsome.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱720.00</span>
+                    <small class="text-muted">Drama / School</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Lookism', '₱720.00', 'images/lookism.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Lookism', '₱720.00', 'images/lookism.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Naruto -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img src="images/naruto.jpg" class="card-img-top" alt="Naruto" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Naruto</h5>
+                <p class="card-text text-truncate-3">
+                  Naruto strives for only one goal: to gain the title of Hokage,
+                  the strongest ninja in his village.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱870.00</span>
+                    <small class="text-muted">Action / Shonen</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Naruto', '₱870.00', 'images/naruto.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Naruto', '₱870.00', 'images/naruto.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Study Group -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/study.jpg"
+                class="card-img-top"
+                alt="Study Group"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Study Group</h5>
+                <p class="card-text text-truncate-3">
+                  Follows a group of students who form a study group, leading to
+                  unexpected adventures and personal growth.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱720.00</span>
+                    <small class="text-muted">School / Action</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Study Group', '₱720.00', 'images/study.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Study Group', '₱720.00', 'images/study.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dragon Ball Super -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/dbs.jpg"
+                class="card-img-top"
+                alt="Dragon Ball Super"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Dragon Ball Super</h5>
+                <p class="card-text text-truncate-3">
+                  The God of Destruction sets his sights on Earth to track down
+                  this mysterious man! Maybe this will give Goku something to
+                  do?
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱1,300.00</span>
+                    <small class="text-muted">Action / Shonen</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Dragon Ball Super', '₱1,300.00', 'images/dbs.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Dragon Ball Super', '₱1,300.00', 'images/dbs.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Killer Peter -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/peter.jpg"
+                class="card-img-top"
+                alt="Killer Peter"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Killer Peter</h5>
+                <p class="card-text text-truncate-3">
+                  Peter finds his body magically reverted back to its teenage
+                  years! Now he sets out to settle the score with Glory Club!
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱998.00</span>
+                    <small class="text-muted">Action / Thriller</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Killer Peter', '₱998.00', 'images/peter.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Killer Peter', '₱998.00', 'images/peter.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- One Punch Man -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/punch.jpg"
+                class="card-img-top"
+                alt="One Punch Man"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">One Punch Man</h5>
+                <p class="card-text text-truncate-3">
+                  Saitama has become unstoppable—defeating any opponent with a
+                  single punch. Use to be a hero for fun.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱999.00</span>
+                    <small class="text-muted">Action / Comedy</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('One Punch Man', '₱999.00', 'images/punch.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('One Punch Man', '₱999.00', 'images/punch.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Solo Leveling -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/solo-leveling.jpg"
+                class="card-img-top"
+                alt="Solo Leveling"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Solo Leveling</h5>
+                <p class="card-text text-truncate-3">
+                  Chronicles the journey of the weakest hunter who gains the
+                  ability to level up, becoming one of the strongest.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱998.00</span>
+                    <small class="text-muted">Fantasy / Action</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Solo Leveling', '₱998.00', 'images/solo-leveling.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Solo Leveling', '₱998.00', 'images/solo-leveling.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reality Quest -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/quest.jpg"
+                class="card-img-top"
+                alt="Reality Quest"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Reality Quest</h5>
+                <p class="card-text text-truncate-3">
+                  A bullied student receives game skills to fight back and
+                  complete quests in the real world.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱998.00</span>
+                    <small class="text-muted">Action / Game</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Reality Quest', '₱998.00', 'images/quest.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Reality Quest', '₱998.00', 'images/quest.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Laws of the Good Child -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/good.jpg"
+                class="card-img-top"
+                alt="Laws of the Good Child"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Laws of the Good Child</h5>
+                <p class="card-text text-truncate-3">
+                  A Russian orphanage trains children as agents. One lost agent
+                  resurfaces in Korea.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱988.00</span>
+                    <small class="text-muted">Action / Spy</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Laws of the Good Child', '₱988.00', 'images/good.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Laws of the Good Child', '₱988.00', 'images/good.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Manager Kim -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/kim.jpg"
+                class="card-img-top"
+                alt="Manager Kim"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Manager Kim</h5>
+                <p class="card-text text-truncate-3">
+                  A former black ops agent turned dad will destroy anyone who
+                  touches his daughter.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱998.00</span>
+                    <small class="text-muted">Action / Drama</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Manager Kim', '₱998.00', 'images/kim.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Manager Kim', '₱998.00', 'images/kim.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wistoria -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img src="images/wis.jpg" class="card-img-top" alt="Wistoria" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Wistoria</h5>
+                <p class="card-text text-truncate-3">
+                  A boy with no magic fights his way to the top of the wizarding
+                  world with a sword.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱1,926.00</span>
+                    <small class="text-muted">Fantasy / Magic</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Wistoria: Wand and Sword', '₱1,926.00', 'images/wis.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Wistoria: Wand and Sword', '₱1,926.00', 'images/wis.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ORV -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img src="images/orv.jpg" class="card-img-top" alt="ORV" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">ORV</h5>
+                <p class="card-text text-truncate-3">
+                  Kim Dokja is the only one who knows the end of the world
+                  because he read the novel.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱999.00</span>
+                    <small class="text-muted">Fantasy / Apocalypse</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Omniscient Reader’s Viewpoint (ORV)', '₱999.00', 'images/orv.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Omniscient Reader’s Viewpoint (ORV)', '₱999.00', 'images/orv.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Boy of Death -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/boy.jpg"
+                class="card-img-top"
+                alt="Boy of Death"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">The Boy of Death</h5>
+                <p class="card-text text-truncate-3">
+                  A boy trades his lifespan for the power to borrow abilities
+                  from the dead.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱880.00</span>
+                    <small class="text-muted">Supernatural / Action</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('The Boy of Death', '₱880.00', 'images/boy.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('The Boy of Death', '₱880.00', images/boy.jpg)"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dandadan -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img src="images/dan.jpg" class="card-img-top" alt="Dandadan" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Dandadan</h5>
+                <p class="card-text text-truncate-3">
+                  Aliens, ghosts, and high school romance collide in this
+                  chaotic occult battle manga.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱1,100.00</span>
+                    <small class="text-muted">Comedy / Horror</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Dandadan', '₱1,100.00', 'images/dan.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Dandadan', '₱1,100.00', 'images/dan.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Duke Pendragon -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/duke.jpg"
+                class="card-img-top"
+                alt="Duke Pendragon"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Duke Pendragon</h5>
+                <p class="card-text text-truncate-3">
+                  A lowly soldier reincarnates as the noble Duke Pendragon to
+                  change his tragic fate.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱950.00</span>
+                    <small class="text-muted">Fantasy / Reincarnation</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Duke Pendragon', '₱950.00', 'images/duke.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Duke Pendragon', '₱950.00', 'images/duke.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Estate Developer -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/estate.jpg"
+                class="card-img-top"
+                alt="Greatest Estate Developer"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Greatest Estate Developer</h5>
+                <p class="card-text text-truncate-3">
+                  A civil engineering student ends up in a fantasy world and
+                  scams—err, builds—his way to wealth.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱950.00</span>
+                    <small class="text-muted">Comedy / Fantasy</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Greatest Estate Developer', '₱950.00','images/estate.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Greatest Estate Developer', '₱950.00','images/estate.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bleach -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img src="images/bleach.jpg" class="card-img-top" alt="Bleach" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Bleach</h5>
+                <p class="card-text text-truncate-3">
+                  Ichigo Kurosaki becomes a substitute Soul Reaper to protect
+                  his family and the world from Hollows.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱680.00</span>
+                    <small class="text-muted">Action / Supernatural</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Bleach', '680.00','images/bleach.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Bleach', '680.00','images/bleach.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Viral Hit -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img src="images/hit.jpg" class="card-img-top" alt="Viral Hit" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Viral Hit</h5>
+                <p class="card-text text-truncate-3">
+                  A scrawny student starts a fighting channel on NewTube and
+                  learns to fight to survive.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱750.00</span>
+                    <small class="text-muted">Action / Streaming</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Viral Hit', '₱750.00', 'images/boy.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Viral Hit', '₱750.00', 'images/boy.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blue Lock -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img src="images/blue.jpg" class="card-img-top" alt="Blue Lock" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Blue Lock</h5>
+                <p class="card-text text-truncate-3">
+                  Japan creates a prison-like facility to train the ultimate
+                  egoist striker for the World Cup.
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱650.00</span>
+                    <small class="text-muted">Sports / Thriller</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('Blue Lock', '₱650.00', 'images/blue.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('Blue Lock', '₱650.00', 'images/blue.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- True Education -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-custom h-100">
+              <img
+                src="images/true.jpg"
+                class="card-img-top"
+                alt="True Education"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">True Education</h5>
+                <p class="card-text text-truncate-3">
+                  When the school system fails, the Ministry of Education sends
+                  in a special agent to deliver "true education".
+                </p>
+                <div class="mt-auto">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <span class="price-tag">₱750.00</span>
+                    <small class="text-muted">Action / Drama</small>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-outline-custom btn-sm"
+                      onclick="addToCart('True Education', '₱750.00', 'images/true.jpg')"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button
+                      class="btn btn-primary-custom btn-sm"
+                      onclick="buyNow('True Education', '₱750.00', 'images/true.jpg')"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="py-4 border-top">
+        <div
+          class="container d-flex flex-column flex-md-row justify-content-between align-items-center"
+        >
+          <div class="d-flex align-items-center mb-3 mb-md-0">
+            <img src="webtoon-logo.png" width="35" class="me-2" alt="Logo" />
+            <span class="fw-bold text-secondary"
+              >Webhive ©
+              <script>
+                document.write(new Date().getFullYear());
+              </script></span
+            >
+          </div>
+          <ul class="nav justify-content-end list-unstyled d-flex mb-0">
+            <li class="ms-3">
+              <a class="text-muted" href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+    <script>
+      const addToCart = (name, price, image) => {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        cart.push({ name, price, image });
+        localStorage.setItem("cart", JSON.stringify(cart));
+        showToast(`${name} has been added to your cart!`);
+      };
+
+      const buyNow = (name, price) => {
+        if (confirm(`Do you want to buy ${name} for ${price} now?`)) {
+          alert(`Processing purchase for ${name} at ${price}!`);
+          window.location.href = "product.html"; // Redirect to the product page
+        }
+      };
+
+      const showToast = (message, isError = false) => {
+        const toast = document.createElement("div");
+        toast.className = `toast ${isError ? "error" : ""}`;
+        toast.textContent = message;
+        document.body.appendChild(toast);
+        setTimeout(() => {
+          toast.style.opacity = "0";
+          setTimeout(() => {
+            document.body.removeChild(toast);
+          }, 500);
+        }, 3000);
+      };
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
