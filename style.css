@@ -184,7 +184,9 @@ footer {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   background: #fff;
   height: 100%;
 }
@@ -228,6 +230,7 @@ footer {
 .text-truncate-3 {
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -262,10 +265,50 @@ hr {
     margin-top: 40px;
     max-width: 100%;
   }
+
+  .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
   .hero-title {
+    font-size: 2rem;
+  }
+
+  .card-img-top {
+    height: 300px; /* Slightly shorter on mobile */
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-primary-custom,
+  .btn-outline-custom {
+    padding: 10px 25px;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .section-title h2 {
     font-size: 2rem;
   }
 }
