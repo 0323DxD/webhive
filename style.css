@@ -297,8 +297,8 @@ hr {
     width: 100%;
   }
 
-  .btn-primary-custom,
-  .btn-outline-custom {
+  .hero-buttons .btn-primary-custom,
+  .hero-buttons .btn-outline-custom {
     padding: 10px 25px;
     font-size: 0.9rem;
     width: 100%;
